@@ -12,3 +12,5 @@ const menuButton = document.querySelector(".menu-button");
 
 menuButton.addEventListener("click", () => toggleMenu());
 //anonymous function waits for click and
+
+//('click' , toggleMenu);
