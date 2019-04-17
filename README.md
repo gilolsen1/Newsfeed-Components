@@ -1,3 +1,28 @@
+
+# NOTES
+
+*Importing file structure: use this template "../folder/filename"
+*Select the item with a querySelector.  All would require for each to access the first index, so if there's just one dont use all.
+
+*menue.js
+-- line8 and 10 grab the elements/styles of the menu and button respectively.
+-- line 1 is the function that toggles the styling for the menu open
+--line 4 is the actual toggling. if that class is not present, it adds it. if it is, it removes it.
+--line 13 adds a click event to the button. a listenter takes two arguments, the event (click) and a callback.  if we remove the (), it will only work ONCE, stuck on. not super sure why, but having it there will allow each click of menuButton to RETURN the anonymous function toggleMenu, so it can toggle on off every time the event triggers. 
+
+
+          
+NAI: ARTICLES:  SEE CODEPEN
+
+
+
+
+
+
+
+
+
+
 # Newsfeed-Components
 
 In this project we are going to be building a news feed reader. The goal is to have a collapsing menu, and expandable news articles. The HTML and CSS is already done for you, you simply need to connect the pieces. After the CSS is connected it is time to move on to building out our components using JavaScript. We will be adding common functionality and styling to build reusable components.
